@@ -70,7 +70,6 @@ namespace RPG.Control
                 {
                     timeSinceLastArrivedAtWaypoint = 0;
                     CycleWaypoint();
-                    print("New patrol");
                 }
             }
             nextPosition = GetCurrentWaypoint();
