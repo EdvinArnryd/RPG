@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponRange: 2
   timeBetweenAttacks: 1
-  weaponDamage: 5
+  weaponDamage: 10
 --- !u!114 &2054257308467867514
 MonoBehaviour:
   m_ObjectHideFlags: 0

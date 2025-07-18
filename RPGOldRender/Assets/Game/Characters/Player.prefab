@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: weaponDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6408010603151783290, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -88,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60cbdc471a3141f080831d63988e48b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 100
+  healthPoints: 250
 --- !u!114 &6949023733295578352
 MonoBehaviour:
   m_ObjectHideFlags: 0
