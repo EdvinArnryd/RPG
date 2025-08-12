@@ -3209,7 +3209,11 @@ GameObject:
   - component: {fileID: 932034189}
   - component: {fileID: 932034191}
   - component: {fileID: 932034190}
-  m_Layer: 0
+  - component: {fileID: 932034193}
+  - component: {fileID: 932034192}
+  - component: {fileID: 932034194}
+  - component: {fileID: 932034195}
+  m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3224,13 +3228,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932034188}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.769045, y: 4.9320993, z: -36.410744}
+  m_LocalRotation: {x: -0, y: -0.7152077, z: -0, w: 0.6989121}
+  m_LocalPosition: {x: 17.36, y: 7.29, z: -41.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2011637136}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -91.32, z: 0}
 --- !u!320 &932034190
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -3241,7 +3245,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 75a7db2d7a8f7b44daf4c45a2f6ea35a, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -3278,6 +3282,78 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!54 &932034192
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932034188}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &932034193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932034188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.9, y: 6, z: 0.83}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &932034194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932034188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef0316ca9c70ae48b7833e721c9a6be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &932034195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932034188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92336e1d8b340c0418124dd85eb5ba85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &935273101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3509,7 +3585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974038695}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.020258367, y: 0.82192963, z: -0.029290518, w: 0.56847453}
+  m_LocalRotation: {x: 0.18720026, y: -0.015842596, z: 0.0030195168, w: 0.98218936}
   m_LocalPosition: {x: -0.07324028, y: 18.308279, z: -46.739227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7065,9 +7141,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 932034189}
   - {fileID: 1685655028}
   - {fileID: 543187926}
-  - {fileID: 932034189}
   - {fileID: 974038696}
   - {fileID: 708898756}
   m_Father: {fileID: 0}
