@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3946617640971808834, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946617640971812664, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946617640971826328, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3946617640977011598, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -37,6 +49,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4615442493981965694, guid: 8e6b890fbc9659f469e6fee0283a5f86, type: 3}
     - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 7147112398576505104}
@@ -44,6 +60,14 @@ PrefabInstance:
       propertyPath: weaponOverride
       value: 
       objectReference: {fileID: 22100000, guid: 3f8909b232da2d944907cc888044e771, type: 2}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 7147112398576447864}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 7147112398576505104}
     - target: {fileID: 6408010603151783290, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.078354
@@ -155,6 +179,11 @@ CapsuleCollider:
   m_Height: 2.01
   m_Direction: 1
   m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!4 &7147112398576447864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3946617640972099068, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+  m_PrefabInstance: {fileID: 6190926705312328836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7147112398576505104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3946617640972172692, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}

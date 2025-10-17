@@ -16,6 +16,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: a5f3f251f7240364181062b68ac35810, type: 2}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: a5f3f251f7240364181062b68ac35810, type: 2}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 6905614300952374224}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 6905614300952300498}
+    - target: {fileID: 6055403628880818056, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 6905614300952374224}
     - target: {fileID: 6408010603151783290, guid: cfdb9bca65dbce346b3f416e0187efb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.06946
@@ -153,6 +173,7 @@ MonoBehaviour:
   waypointDwellTime: 2
   patrolPath: {fileID: 0}
   wayPointTolerance: 1.5
+  patrolSpeedFraction: 0.2
 --- !u!1001 &6905614300951993566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,8 +231,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+--- !u!4 &6905614300952300498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481036, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+  m_PrefabInstance: {fileID: 6905614300951993566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6905614300952363942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 417656, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+  m_PrefabInstance: {fileID: 6905614300951993566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6905614300952374224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423694, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
   m_PrefabInstance: {fileID: 6905614300951993566}
   m_PrefabAsset: {fileID: 0}
