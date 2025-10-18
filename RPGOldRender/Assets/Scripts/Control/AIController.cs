@@ -44,14 +44,14 @@ namespace RPG.Control
             {
                 AttackBehaviour();
             }
-            else if (timeSinceLastSawPlayer < suspicionTime)
-            {
-                SuspicionBehaviour();
-            }
-            else
-            {
-                PatrolBehaviour();
-            }
+            // else if (timeSinceLastSawPlayer < suspicionTime)
+            // {
+            //     SuspicionBehaviour();
+            // }
+            // else
+            // {
+            //     PatrolBehaviour();
+            // }
 
             UpdateTimers();
         }

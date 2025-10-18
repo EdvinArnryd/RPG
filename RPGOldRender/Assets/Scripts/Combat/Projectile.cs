@@ -8,16 +8,16 @@ namespace RPG.Combat
     {
         [SerializeField] private float projectileSpeed;
         private Health target = null;
+        private float damage = 0;
 
         private void Start()
         {
-            print(target);
+            transform.LookAt(GetAimLocation());
         }
 
         void Update()
         {
             if (target == null) return;
-            transform.LookAt(GetAimLocation());
             transform.Translate(Vector3.forward * Time.deltaTime * projectileSpeed);
         }
 
@@ -31,9 +31,20 @@ namespace RPG.Combat
             return target.transform.position + Vector3.up * targetCapsule.height / 2;
         }
 
-        public void SetTarget(Health target)
+        public void SetTarget(Health target, float damage)
         {
             this.target = target;
+            this.damage = damage;
+        }
+
+        void OnTriggerEnter(Collider other)
+        {
+            if(other.GetComponent<Health>() == target)
+            {
+                target.TakeDamage(damage);
+
+                Destroy(gameObject); 
+            }
         }
     }
 }
