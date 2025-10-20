@@ -189,6 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingLevel: 1
   characterClass: 1
+  progression: {fileID: 11400000, guid: eddd14b66e5cc834b92e14fb483cd9a8, type: 2}
 --- !u!1001 &3946617640971711504
 PrefabInstance:
   m_ObjectHideFlags: 0
