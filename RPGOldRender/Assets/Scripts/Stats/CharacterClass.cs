@@ -1,6 +1,6 @@
 namespace RPG.Stats
 {
-    enum characterClass
+    public enum characterClass
     {
         Player,
         Grunt,
