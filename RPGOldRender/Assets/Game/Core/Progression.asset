@@ -15,22 +15,19 @@ MonoBehaviour:
   characterClasses:
   - characterClass: 0
     health:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 250
+    - 250
+    - 250
+    - 250
+    - 250
+    - 250
+    - 250
   - characterClass: 1
     health:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 50
+    - 50
+    - 50
+    - 50
+    - 50
   - characterClass: 0
     health: []
