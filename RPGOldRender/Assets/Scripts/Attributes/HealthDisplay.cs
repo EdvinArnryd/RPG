@@ -3,9 +3,8 @@ using UnityEngine;
 
 namespace RPG.Attributes
 {
-    public class HealthDisplay : MonoBehaviour
+    public class EnemyHealthDisplay : MonoBehaviour
     {
-        [SerializeField] private TMP_Text healthText;
         Health health;
 
         private void Awake()
@@ -15,7 +14,7 @@ namespace RPG.Attributes
 
         private void Update()
         {
-            healthText.text = health.GetPercentage() + "%";
+            GetComponent<TMP_Text>().text = health.GetPercentage() + "%";
         }
     }
 }
