@@ -1,5 +1,6 @@
 using UnityEngine;
 using RPG.Saving;
+using RPG.Stats;
 
 namespace RPG.Attributes
 {
@@ -21,6 +22,11 @@ namespace RPG.Attributes
         public void RestoreState(object state)
         {
             experiencePoints = (float)state;
+        }
+
+        public float GetPoints()
+        {
+            return experiencePoints;
         }
     }
 }
