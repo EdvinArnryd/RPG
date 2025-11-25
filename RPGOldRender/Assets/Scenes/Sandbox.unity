@@ -9253,6 +9253,10 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: a5f3f251f7240364181062b68ac35810, type: 2}
+    - target: {fileID: 605358228258905887, guid: dbe5abdb7dcf3f14bba6939d02f35cd1, type: 3}
+      propertyPath: startingLevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 991096972935790178, guid: dbe5abdb7dcf3f14bba6939d02f35cd1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.71
