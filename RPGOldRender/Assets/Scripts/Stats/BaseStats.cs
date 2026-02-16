@@ -13,7 +13,7 @@ namespace RPG.Stats
         {
             if(gameObject.tag == "Player")
             {
-                print(GetLevel());
+                // print(GetLevel());
             }
         }
 
