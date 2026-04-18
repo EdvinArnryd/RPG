@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -14,7 +15,7 @@ namespace RPG.Attributes
 
         private void Update()
         {
-            GetComponent<TMP_Text>().text = health.GetPercentage() + "%";
+            GetComponent<TMP_Text>().text = String.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints());
         }
     }
 }
