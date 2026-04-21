@@ -16,6 +16,7 @@ namespace RPG.Attributes
 
         private void Start()
         {
+            // Need to look into race conditions with Start() and Awake()
             GetComponent<BaseStats>().onLevelUp += RegenerateHealth;
             if (healthPoints < 0)
             {
